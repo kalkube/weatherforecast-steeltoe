@@ -7,9 +7,6 @@ metadata:
     app.kubernetes.io/part-of: weatherforecast-steeltoe
     apps.tanzu.vmware.com/has-tests: "true"
     apps.tanzu.vmware.com/auto-configure-actuators: "true"
-    tanzu.app.live.view: "true"
-    tanzu.app.live.view.application.flavours: steeltoe
-    tanzu.app.live.view.application.name: weatherforecast-steeltoe
 spec:
   params:
   - name: annotations
